@@ -6,12 +6,12 @@ edition = "2021"
 [lib]
 crate-type = ["cdylib", "rlib"]
 
-[patch.crates-io]
-leptos = { path = "../leptos/leptos" }
-leptos_meta = { path = "../leptos/meta" }
-leptos_actix = { path = "../leptos/integrations/actix" }
-leptos_axum = { path = "../leptos/integrations/axum" }
-leptos_router = { path = "../leptos/router" }
+# [patch.crates-io]
+# leptos = { path = "../leptos/leptos" }
+# leptos_meta = { path = "../leptos/meta" }
+# leptos_actix = { path = "../leptos/integrations/actix" }
+# leptos_axum = { path = "../leptos/integrations/axum" }
+# leptos_router = { path = "../leptos/router" }
 # actix-web = { path = "../actix-web/actix-web" }
 # actix-http = { path = "../actix-web/actix-http" }
 # http = { path = "../http" }
